@@ -1,7 +1,7 @@
 # Autocomplete Engine
 
 A fast, case-insensitive autocomplete engine for substring search with fuzzy matching (≤1 typo allowed). Designed for large text corpora, using trigram indexing and efficient filtering.
-This project was part of the "Exellenteam in academy" program with collaboration of Google.
+This project was part of the "Excellenteam in academy" program with collaboration of Google.
 
 ## Features
 - Substring search (not just prefix)
@@ -82,3 +82,4 @@ python -m unittest test_AC.py
 - The engine uses a trigram index for fast candidate filtering.
 - Fuzzy matching is limited to a single edit (insertion, deletion, or substitution).
 - The `sentences.gz` index is auto-generated and can be deleted to force a rebuild.
+
